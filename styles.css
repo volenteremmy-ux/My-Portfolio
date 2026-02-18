@@ -24,7 +24,7 @@ h1, h3 {
     justify-content: space-between; 
     align-items: center;            
     padding: 20px 10%;
-    background-color: var(--beige);
+    background-color: var(--mauve);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     position: sticky;
     top: 0;
@@ -51,12 +51,12 @@ h1, h3 {
 #Header_styles a {
     text-decoration: none;
     font-weight: 600;
-    color: var(--dark-text);
+    color:  #2d2d2d;
     transition: color 0.3s;
 }
 
 #Header_styles a:hover {
-    color: var(--mauve);
+    color: whitesmoke;
 }
 
 /* Layout Containers */
@@ -72,12 +72,15 @@ h1, h3 {
     background-color: var(--mauve);
     color: white;
 }
+.image-container {
+    max-width: 50%;
+}
 
 .image-container img {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 20px 20px 0px var(--beige); /* Decorative offset */
+    box-shadow: 20px 20px 0px var(--mauve); /* Decorative offset */
 }
 
 .reverse .image-container img {
@@ -166,7 +169,7 @@ footer {
 /* Samples Page */
 /* Subpage Layout (Background Image Logic) */
 .subpage main {
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("FAQ.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Images/FAQ.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax effect */
@@ -665,14 +668,14 @@ footer {
 
 
 /* Glass Texture */
-.glass-container {
+/* .glass-container {
     background: rgba(250, 253, 253, 0.85); 
     backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.4); /* Subtle white shine */
-    box-shadow: 0 8px 32px 0 rgba(164, 134, 164, 0.15); /* Mauve-tinted shadow */
-    position: relative;
+    /* box-shadow: 0 8px 32px 0 rgba(164, 134, 164, 0.15); /* Mauve-tinted shadow */
+    /* position: relative;
     overflow: hidden;
-}
+} */ */ */
 
 /* Add a soft gradient shine across the box */
 .glass-container::before {
