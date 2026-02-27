@@ -169,7 +169,7 @@ footer {
 /* Samples Page */
 /* Subpage Layout (Background Image Logic) */
 .subpage main {
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Images/FAQ.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Images/Sea-Meadow-Background.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax effect */
